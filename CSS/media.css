@@ -1,0 +1,15 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --bady-color: #E6E6E6;        
+        --input-baground: #EEEEEE;
+        --calc-baground: #D2CDCD;
+        --cup-color:#E5E4E1;
+        --del-color:#378187;
+        --equal-color:#C85402;
+        --num-color: #36362C;
+        --calc-in-color: #36362C;
+        --del-box-shadow: #1B6066 ;
+        --equel-box-shadow: #873901 ;
+
+    }
+}

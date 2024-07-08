@@ -1,0 +1,202 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --bady-color: #3A4663;   
+    --input-baground: #181F33;
+    --calc-baground: #242D44;
+    --cup-color:#EAE3DC;
+    --del-color:#647198;
+    --equal-color:#D03F2F;
+    --num-color: #434A59;    
+    --calc-in-color: #fff;
+    --league-spaertian: "LeagueSpartan";
+    --del-box-shadow: #414E73;
+    --equel-box-shadow: #93261A;
+
+}
+
+body {
+    background-color: var(--bady-color);
+    font-family: var(--league-spaertian);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.section { 
+    width: 540px;
+    height: 708px;
+    margin: auto;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  
+}
+.calc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.calc-title {
+    color: var(--calc-in-color);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.533px;
+}
+.theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+.theme-text {
+    color: var(--calc-in-color);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.numbers {
+    display: flex;
+    gap: 15px;
+}
+.num {
+    color: var(--calc-in-color);
+    text-align: center;
+    /* font-family: Spartan; */
+    font-size: 12px;
+    font-weight: 700;
+}
+.theme-toggle {
+
+
+}
+.calc-input {
+    width: 540px;
+    height: 128px;
+    margin-bottom: 24px;
+}
+.calc-in {
+    width: 540px;
+    height: 128px;
+    color: var(--calc-in-color);
+    text-align: right;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -0.933px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 32px;
+    border-radius: 10px;
+    background: var(--input-baground);
+    border: unset;
+   
+}
+.button-wrapper {
+    width: 540px;
+    height: 460px;
+    border-radius: 10px;
+    background: var(--calc-baground);
+    padding: 25px;
+}
+.button-drid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+
+}
+.btn {
+    width: 101px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: var(--cup-color);
+    box-shadow: 0px -4px 0px 0px #A79E91 inset;
+    color: var(--num-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.667px;
+}
+.sign {
+    width: 101px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: var(--cup-color);
+    box-shadow: 0px -4px 0px 0px #A79E91 inset;
+    color: var(--num-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.667px;
+}
+.dot {
+    width: 101px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: var(--cup-color);
+    box-shadow: 0px -4px 0px 0px #A79E91 inset;
+    color: var(--num-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.667px;
+}
+.del {
+    width: 101px;
+    height: 64px;
+    border-radius: 10px;
+    background: var(--del-color);
+    box-shadow: 0px -4px 0px 0px var(--del-box-shadow) inset;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.467px;
+    }
+.perform {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+}
+.reset {
+    width: 227px;
+    height: 64px;
+    border-radius: 10px;
+    background: var(--del-color);
+    box-shadow: 0px -4px 0px 0px var(--del-box-shadow) inset;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.467px;
+}
+.equal {
+    width: 227px;
+    height: 64px;
+    border-radius: 10px;
+    background: var(--equal-color);
+    box-shadow: 0px -4px 0px 0px var(--equel-box-shadow) inset;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.467px;
+}
