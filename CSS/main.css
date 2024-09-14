@@ -200,3 +200,41 @@ body {
     font-weight: 700;
     letter-spacing: -0.467px;
 }
+
+:root {
+    /* Default: Dark Mode */
+    --bady-color: #3A4663;   
+    --input-baground: #181F33;
+    --calc-baground: #242D44;
+    --cup-color:#EAE3DC;
+    --del-color:#647198;
+    --equal-color:#D03F2F;
+    --num-color: #434A59;    
+    --calc-in-color: #fff;
+    --league-spaertian: "LeagueSpartan";
+    --del-box-shadow: #414E73;
+    --equel-box-shadow: #93261A;
+}
+
+/* Light Mode */
+body.light-mode {
+    --bady-color: #E6E6E6;        
+    --input-baground: #EEEEEE;
+    --calc-baground: #D2CDCD;
+    --cup-color:#E5E4E1;
+    --del-color:#378187;
+    --equal-color:#C85402;
+    --num-color: #36362C;
+    --calc-in-color: #36362C;
+    --del-box-shadow: #1B6066;
+    --equel-box-shadow: #873901;
+}
+
+body {
+    background-color: var(--bady-color);
+    font-family: var(--league-spaertian);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
